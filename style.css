@@ -1,0 +1,163 @@
+@import url("https://font/googleapis.com/css?family=Monserrat|Explora");
+
+body {
+  margin: 0;
+  font-family: "Monserrat", sans-serif;
+  font-size: 18px;
+  color: #444;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #8abfff;
+  overflow: auto;
+}
+
+img {
+  max-width: 100%;
+  border: 1px solid #fff;
+}
+
+.banner1 p {
+  font-family: "Explora";
+  font-size: 7rem;
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#callout {
+  width: 100%;
+  background-color: #415ddb;
+  color: #fff;
+  overflow: hidden;
+  text-align: right;
+}
+
+#callout p {
+  padding-right: 2rem;
+}
+
+#callout p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 50px;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 7.4rem;
+  border: 1px solid #415ddb;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+  display: block;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #415ddb;
+}
+
+.left-col {
+  width: 55%;
+  float: left;
+  padding: 1%;
+}
+
+.sidebar {
+  width: 40%;
+  float: right;
+  padding: 1%;
+}
+
+.one-third {
+  width: 29%;
+  float: left;
+  padding: 2%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.foot {
+  font-family: "Explora";
+  font-size: 5rem;
+  font-weight: bolder;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  /* text-align: center; */
+}
+
+footer {
+  background-color: #415ddb;
+  width: 100%;
+}
+
+.social {
+  font-size: 3rem;
+  display: inline-block;
+  overflow: hidden;
+  padding: 1.5rem;
+}
+
+.social a {
+  color: #fff;
+  padding: 2rem;
+}
+
+.social a:hover {
+  /* color: #8abfff; */
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .banner1 p {
+    font-size: 4rem;
+  }
+  p {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  nav ul {
+    padding-left: 0;
+  }
+  nav ul li {
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+  }
+  nav ul li a {
+    padding: 8px 0;
+  }
+  .left-col {
+    width: 100%;
+    padding: 0;
+  }
+  .sidebar {
+    width: 100%;
+    padding: 0;
+  }
+  .one-third {
+    width: 100%;
+    padding: 0;
+  }
+  .foot {
+    font-size: 4rem;
+    padding: 0 10px;
+    margin: 30px;
+  }
+  .social {
+    font-size: 1.9rem;
+    padding: 1rem;
+  }
+}
